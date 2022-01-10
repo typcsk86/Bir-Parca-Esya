@@ -5,7 +5,7 @@ Bu proje yaz stajını proje olarak yaptığım bir web uygulamasıdır. İlk st
 
 Projedeki arayüz ve arkayüz'e dair tüm yazılımlar şahsıma aittir.
 
-Diller
+Genel Bilgiler
 ---------------------------------
 Frontend: HTML, CSS, Javascript
 ---------------------------------
