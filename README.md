@@ -12,3 +12,4 @@ Frontend: HTML, CSS, Javascript
 Backend: PHP
 ---------------------------------
 Veritabanı: MySQL
+---------------------------------
