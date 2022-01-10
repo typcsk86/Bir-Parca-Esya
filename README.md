@@ -7,6 +7,6 @@ Projedeki arayüz ve arkayüz'e dair tüm yazılımlar şahsıma aittir.
 
 Diller ve Yorumlayıcılar
 ---------------------------------
-Frontend: HTML, CSS, Javascript.
-Backend: PHP.
-Veritabanı: MySQL.
+Frontend: HTML, CSS, Javascript ///
+Backend: PHP ///
+Veritabanı: MySQL
