@@ -1,0 +1,102 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*----------------------------*/
+
+div.ustmenu {
+	position:relative;
+	background-color: white;
+	border : 1px solid black;
+	border-width: 50%;
+	width: 75%;
+	margin-bottom: 50px;
+	margin: 0px auto;
+	height: 400px;
+	top: 25px;
+	padding: 5px;
+	
+}
+
+div.div1 {
+	position:relative;
+    height: 200px;
+    width: 50%;
+    background-color: white;
+	top: 3%;
+	margin: 10px auto;
+	border: 3px solid #73ad21;
+	padding: 10px;
+	text-align: center;
+}
+div.div2 {
+	position:relative;
+    height: 50px;
+    width: 50%;
+    background-color: white;
+	top: 3%;
+	margin: 10px auto;
+	border: 3px solid #73ad21;
+	padding: 10px;
+	text-align: center;
+}
+
+.buttonSatis {
+  background-color: white; 
+  width: 20%;
+  height: 98%;
+  color: black; 
+  border: 2px solid #4CAF50;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonSatis:hover {
+	background-color: #91a6b4; 
+	color:white;
+}
+
+@media screen and (min-width: 1600px) {
+	div.div1 {
+		height: 200px;
+	}
+	
+	div.ustmenu {
+		height:400px;
+	}
+	
+}
+
+@media screen and (max-width: 1600px) {
+	div.div1 {
+		height: 500px;
+	}
+	div.ustmenu {
+		height:750px;
+	}
+}
+
+table, th, td {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px; 
+  width: 50%;
+  margin-bottom: 20px;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}

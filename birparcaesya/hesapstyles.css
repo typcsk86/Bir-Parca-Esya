@@ -1,0 +1,496 @@
+body {
+  //background-image: url("arkaplan.jpg");
+  background-color: #EBFFD2;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*----------------------------*/
+
+div.logomenu {
+  position: relative;
+  /*position: sticky;*/
+  border-bottom: 1px solid black;
+  border-bottom-width : 50%;
+  width: 75%;
+  margin-bottom: 10px;
+  margin: 0px auto;
+  height: 75px;
+  top: 0;
+  z-index: 2;
+  padding: 5px;
+}
+
+div.logomenusearchtext {
+	position:absolute;
+	top:20px;
+	/*border: 1px solid black;*/
+	border-width: 50%;
+	/*left: 14%;*/
+	/*float:right;*/
+	margin:auto;
+	/*margin-left: 10px;*/
+	left: 20%;
+	width: 175px;
+	height: 25px;
+	padding: 5px;
+	text-align:center;
+}
+
+div.logomenusearchbutton {
+	position:absolute;
+	top:20px;
+	/*border: 1px solid black;*/
+	border-width: 50%;
+	/*left: 14%;*/
+	/*float:right;*/
+	margin:auto;
+	/*margin-left: 10px;*/
+	left: 35%;
+	width: 50px;
+	height: 25px;
+	padding: 5px;
+	text-align:center;
+}
+
+.searchbutton:hover {
+	background-color: #FFECBC; 
+	font-weight: bold;
+}
+
+div.logomenubuttons {
+	position:absolute;
+	top:0;
+	/*border: 1px solid black;*/
+	border-width: 50%;
+	/*left: 14%;*/
+	float:right;
+	margin:auto;
+	margin-left: 10px;
+	right:5px;
+	width: 35%;
+	height: 60px;
+	padding: 5px;
+}
+
+div.logomenubuttonslogin {
+	position:relative;
+	top:0px;
+	/*border: 1px solid black;*/
+	border-width: 50%;
+	/*left: 14%;*/
+	float:right;
+	right:5px;
+	width: 60%;
+	height: 50px;
+	padding: 5px;
+}
+
+.button1logo {
+  background-color: white; 
+  padding: 16px 32px;
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button1logo:hover {
+	background-color: #91a6b4; 
+	color:white;
+}
+
+a.buttonlogolink{
+	text-decoration: none;
+	color: black;
+}
+
+.button1ustbuttons {
+	background-color: white; 
+	padding: 16px 32px;
+	color: black; 
+	border: 2px solid #4CAF50;
+}
+
+.button1ustbuttons:hover {
+	background-color: #91a6b4; 
+	color:white;
+}
+
+a.button1ustbuttonslink{
+	text-decoration: none;
+	color: black;
+}
+
+.button1ustbuttonsgiris {
+	background-color: white; 
+	padding: 10px 20px;
+	color: black; 
+	border: 2px solid #4CAF50;
+}
+
+.button1ustbuttonsgiris:hover {
+	background-color: #91a6b4; 
+	color:white;
+}
+
+a.button1ustbuttonslink{
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+  /*background-color: #4CAF50; /* Green */
+  /*padding: 16px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1600px) {
+	div.logomenu {
+		width: 75%;
+		height: 75px;
+	}
+	
+	div.logomenusearchtext {
+		top:20px;
+		left: 20%;
+	}
+	
+	div.logomenusearchbutton {
+		top:20px;
+		left: 35%;
+	}
+	
+	div.logomenubuttons {
+		width: 35%;
+		height: 60px;
+	}
+	
+	div.logomenubuttonslogin {
+		top: 0px;
+		width: 60%;
+		height: 50px;
+	}
+	
+	.button1ustbuttons {
+		padding: 16px 32px;
+	}
+	
+	.button1ustbuttonsgiris {
+		padding: 10px 20px;
+	}
+	
+}
+
+@media screen and (max-width: 1600px) {
+	div.logomenu {
+		width: 75%;
+		height: 225px;
+	}
+	
+	div.logomenusearchtext {
+		top:75px;
+		left: 5px;
+	}
+	
+	div.logomenusearchbutton {
+		top:125px;
+		left: 5px;
+	}
+	
+	div.logomenubuttons {
+		width: 35%;
+		height: 180px;
+	}
+	
+	div.logomenubuttonslogin {
+		width: 60%;
+		top: 47.5px;
+		height: 100px;
+		right:36%;
+	}
+	
+	.button1ustbuttons {
+		padding: 8px 16px;
+	}
+	
+	.button1ustbuttonsgiris {
+		padding: 6px 12px;
+	}
+}
+
+/*----------------------------*/
+
+div.ustmenu {
+	position:relative;
+	background-color: #EFF5E8;
+	border : 1px solid black;
+	border-width: 50%;
+	width: 75%;
+	margin-bottom: 50px;
+	margin: 0px auto;
+	height: 1250px;
+	top: 25px;
+	padding: 5px;
+}
+
+div.hesapButtons {
+	position:absolute;
+	background-color: white;
+	border : 1px solid black;
+	width: 15%;
+	margin: 0px auto;
+	height: 125px;
+	top: 25px;
+	left: 5%;
+}
+
+div.hesapMenu {
+	position:absolute;
+	background-color: white;
+	border : 1px solid black;
+	width: 60%;
+	margin: 0px auto;
+	height: 90%;
+	top: 25px;
+	left: 30%;
+	text-align: center;
+}
+
+#panel1 {
+	visibility: visible;
+}
+
+#panel2 {
+	visibility: hidden;
+}
+table {
+	width:90%;
+}
+
+table, th, td {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px; 
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttonhesap {
+  background-color: white; 
+  width: 98%;
+  height: 42.5%;
+  color: black; 
+  border: 2px solid #4CAF50;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonhesap:hover {
+	background-color: #91a6b4; 
+	color:white;
+}
+
+@media screen and (min-width: 1600px) {
+	div.hesapButtons {
+		height: 125px;
+	}
+	
+	div.ustmenu {
+		height:1250px;
+	}
+	
+	.buttonhesap {
+		height: 42.5%;
+	}
+	
+}
+
+@media screen and (max-width: 1600px) {
+	div.hesapButtons {
+		height: 250px;
+	}
+	div.ustmenu {
+		height:1500px;
+	}
+	
+	.buttonhesap {
+		height: 46%;
+	}
+}
+
+/*----------------------------*/
+
+div.footer {
+  position: relative;
+  background-color: #EFF5E8;
+  margin: 0px auto;
+  width: 75%;
+  padding: 50px 0;
+  margin-bottom: 25px;
+  height: 75px;
+  top: 100px;
+  border: 1px solid black;
+  text-align:center;
+}
+
+div.footertext {
+  position: relative;
+  /*box-sizing: border-box;*/
+  /*float: left;*/
+  /*right: 20%;*/
+  /*padding: 5px;*/
+  top: -20px;
+  width: 700px;
+  height: 65px;
+  margin: auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+div.footertext2 {
+  position: relative;
+  /*box-sizing: border-box;*/
+  /*float: left;*/
+  top: -10px;
+  /*right: 20%;
+  padding: 5px;*/
+  width: 850px;
+  height: 45px;
+  margin: auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+  vertical-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+  div.footer {
+	width: 75%;
+	height: 75px;
+  }
+  
+  div.footertext {
+	width: 700px;
+	height: 65px;
+  }
+  
+  div.footertext2 {
+    width: 850px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  div.footer {
+	width: 60%;
+	height: 200px;
+  }
+  
+  div.footertext {
+	width: 200px;
+	height: 150px;
+  }
+  
+  div.footertext2 {
+    width: 300px;
+	height: 45px;
+  }
+}
+
+.button11 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button11:hover {
+  background-color: #91a6b4;
+  border: 2px solid green;
+  color: white;
+}
+
+a.button1footer {
+	text-decoration: none;
+	color:black;
+}
+
+div.circleanimation {
+	position: absolute;
+	top: 40%;
+	left:5%;
+	margin:left;
+	height: 50px;
+	width: 50px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	
+	  animation-name: circle1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+div.circleanimation2 {
+	position: absolute;
+	top: 40%;
+	right:5%;
+	margin:right;
+	height: 50px;
+	width: 50px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	
+	  animation-name: circle1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes circle1 {
+  0%  {
+	  background-color: red;
+	  }
+  25% {
+	  background-color: blue;
+	  }
+  50% {
+	  background-color: yellow;
+	  }
+  75% {
+	  background-color: green;
+	  }
+  100%{
+	  background-color: red;
+	  }
+}
+
+/*----------------------------*/
+
